@@ -1,14 +1,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="0xProbability — open-source tools for macOS, iOS, Android TV and the web" src="assets/header-dark.svg" width="100%">
+  <img alt="0xProbability — open-source tools for macOS, iOS, Android, Android TV and the web" src="assets/header-dark.svg" width="100%">
 </picture>
 
 <br>
 
 ```ts
 const me = {
-  ships:      ["menu bar apps", "iOS apps", "Android TV apps", "3D on the web", "home automation", "dev tooling"],
+  ships:      ["menu bar apps", "iOS apps", "Android apps", "Android TV apps", "3D on the web", "home automation", "dev tooling"],
   writes:     ["Swift", "TypeScript", "JavaScript", "Java", "Kotlin"],
   believes:   ["local first", "no telemetry", "small binaries", "code you can read in one sitting"],
   odds:       { worksOnMyMachine: 1.0, worksOnYours: 0.99, firstTry: 0.42 },
@@ -26,6 +26,16 @@ const me = {
       Your home as a live 3D model — in the Mac's menu bar, around its notch and on your iPhone.
       Lights and air conditioners through Smart Life, Home Assistant, Philips Hue and Apple Home.
       No server, no account, no telemetry.
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">📱</td>
+    <td>
+      <b><a href="https://github.com/0xProbabillity/house-control-android">House Control for Android</a></b>
+      &nbsp;<sub><code>Kotlin</code> <code>Jetpack Compose</code> <code>Three.js</code> <code>Android</code></sub><br>
+      House Control on Android phones and tablets: your home in 3D, its lights, air conditioners and scenes through
+      Smart Life, Home Assistant and Philips Hue. Set up and drawn on the phone, with widgets, shortcuts and a
+      Quick Settings tile — and in sync with the Mac if you have one.
     </td>
   </tr>
   <tr>
