@@ -9,7 +9,7 @@
 ```ts
 const me = {
   ships:      ["menu bar apps", "iOS apps", "Android TV apps", "3D on the web", "home automation", "dev tooling"],
-  writes:     ["Swift", "TypeScript", "JavaScript", "Java"],
+  writes:     ["Swift", "TypeScript", "JavaScript", "Java", "Kotlin"],
   believes:   ["local first", "no telemetry", "small binaries", "code you can read in one sitting"],
   odds:       { worksOnMyMachine: 1.0, worksOnYours: 0.99, firstTry: 0.42 },
 };
@@ -46,6 +46,15 @@ const me = {
       straight from the TV through Smart Life, Home Assistant and Philips Hue. With Luma, scenes live on the home screen.
     </td>
   </tr>
+  <tr>
+    <td width="72" align="center">🍿</td>
+    <td>
+      <b><a href="https://github.com/0xProbabillity/film-to-watch-tv">Film to Watch</a></b>
+      &nbsp;<sub><code>Kotlin</code> <code>Jetpack Compose</code> <code>Android TV</code></sub><br>
+      Tinder for movies on your TV: pick genres, swipe posters with the remote, keep a watchlist and jump straight to
+      Netflix or Prime Video. Works without API keys, and an AI agent can install it for you from one prompt.
+    </td>
+  </tr>
 </table>
 
 ### ◇ Toolbox
@@ -56,6 +65,8 @@ const me = {
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
+  <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white">
   <img alt="Android TV" src="https://img.shields.io/badge/Android%20TV-3DDC84?style=flat-square&logo=android&logoColor=white">
   <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
