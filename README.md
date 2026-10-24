@@ -1,15 +1,15 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="0xProbability — open-source tools for macOS, iOS, Android, Android TV and the web" src="assets/header-dark.svg" width="100%">
+  <img alt="0xProbability — open-source tools for macOS, Windows, iOS, Android, Android TV and the web" src="assets/header-dark.svg" width="100%">
 </picture>
 
 <br>
 
 ```ts
 const me = {
-  ships:      ["menu bar apps", "iOS apps", "Android apps", "Android TV apps", "3D on the web", "home automation", "dev tooling"],
-  writes:     ["Swift", "TypeScript", "JavaScript", "Java", "Kotlin"],
+  ships:      ["menu bar apps", "Windows apps", "iOS apps", "Android apps", "Android TV apps", "3D on the web", "home automation", "dev tooling"],
+  writes:     ["Swift", "C#", "TypeScript", "JavaScript", "Java", "Kotlin"],
   believes:   ["local first", "no telemetry", "small binaries", "code you can read in one sitting"],
   odds:       { worksOnMyMachine: 1.0, worksOnYours: 0.99, firstTry: 0.42 },
 };
@@ -36,6 +36,16 @@ const me = {
       House Control on Android phones and tablets: your home in 3D, its lights, air conditioners and scenes through
       Smart Life, Home Assistant and Philips Hue. Set up and drawn on the phone, with widgets, shortcuts and a
       Quick Settings tile — and in sync with the Mac if you have one.
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">🪟</td>
+    <td>
+      <b><a href="https://github.com/0xProbabillity/house-control-windows">House Control for Windows</a></b>
+      &nbsp;<sub><code>C#</code> <code>.NET</code> <code>WebView2</code> <code>Three.js</code> <code>Windows</code></sub><br>
+      House Control on Windows 10 and 11: your home in 3D above the taskbar, in an island at the top of the screen
+      and in a widget on the desktop. Lights, air conditioners and scenes through Smart Life, Home Assistant and
+      Philips Hue, in sync with the iPhone and Android apps. A small native app, no Electron.
     </td>
   </tr>
   <tr>
@@ -76,6 +86,7 @@ const me = {
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white">
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white">
   <img alt="Android TV" src="https://img.shields.io/badge/Android%20TV-3DDC84?style=flat-square&logo=android&logoColor=white">
   <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
