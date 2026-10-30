@@ -8,7 +8,7 @@
 
 ```ts
 const me = {
-  ships:      ["menu bar apps", "Windows apps", "iOS apps", "Android apps", "Android TV apps", "3D on the web", "home automation", "dev tooling"],
+  ships:      ["menu bar apps", "Windows apps", "iOS apps", "Android apps", "Android TV apps", "BlackBerry apps", "3D on the web", "home automation", "dev tooling"],
   writes:     ["Swift", "C#", "TypeScript", "JavaScript", "Java", "Kotlin"],
   believes:   ["local first", "no telemetry", "small binaries", "code you can read in one sitting"],
   odds:       { worksOnMyMachine: 1.0, worksOnYours: 0.99, firstTry: 0.42 },
@@ -18,6 +18,16 @@ const me = {
 ### ◇ Building
 
 <table>
+  <tr>
+    <td width="72" align="center">🫐</td>
+    <td>
+      <b><a href="https://github.com/0xProbabillity/claudeberry">ClaudeBerry</a></b>
+      &nbsp;<sub><code>Java ME</code> <code>MIDP</code> <code>SSH</code> <code>BlackBerry OS 7</code></sub><br>
+      Claude Code in your pocket, on a BlackBerry from 2011. A modern SSH client for the phone, built on berryssh:
+      curve25519 and ChaCha20, a 256-colour terminal, tmux sessions that survive a dropped mobile link, a key bar
+      and quick panel for the hardware keyboard, and voice prompts transcribed by Whisper on your own server.
+    </td>
+  </tr>
   <tr>
     <td width="72" align="center">🏠</td>
     <td>
